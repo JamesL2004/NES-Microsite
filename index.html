@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Micro Site</title>
+    <meta name="description" content="Micro Site">
+    <meta name="robots" content="noindex, nofollow">
+    <!-- add css sheet -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- add our google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&family=Signika+Negative:wght@400;700&family=Yanone+Kaffeesatz:wght@400;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header><!--I tried doing a universal header but when I validated it and it showed me an error so I just copy and pasted it each time-->
+            <div>
+              <a href = "index.html"><img src = "./img/header.png" alt = "header logo"></a>
+            </div>
+            <nav>
+              <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+              </ul>
+              <div class="burger"><!--Burger icon for mobile mode-->
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+              </div>
+            </nav>
+        </header>
+        <section class = "masthead">
+            <div><!--Empty div so the whole masthead as that white colour over it-->
+            </div>  
+        </section>
+        <main>
+            <section class="intro">
+                <div>
+                    <h1>Welcome to the World of Nintendo</h1>
+                    <p>The Nintendo Entertainment System was a cornerstone in the development of modern gaming.
+                        The console has over 600 games and has sold over 60 million units worldwide It is one of the most successful consoles of all time.
+                        Now it's back, in a brand new compact form. With all of the capability of the original and more.
+                        Play the games from your childhood or if your on the younger side travel back in time and see what gaming was like 37 years ago.
+                    </p>
+                </div>
+            </section>
+            <section class="second">
+                <div>
+                    <video src="./videos/intro-video.mp4" autoplay controls></video>
+                </div>
+            </section>
+            <section class="reviews"><!--I put the reviews in two sets of divs so that I could seperate them in the style sheet to put them beside each other-->
+                <div class="one">
+                    <a href="https://techcrunch.com/2016/11/07/review-the-nes-classic-edition-and-all-30-games-on-it/">"This is a Love Letter to Nintendo's oldest fans."</a>
+                    <p>Devin Coldewey, Tech Crunch</p>
+                    <a href="https://www.ign.com/articles/2016/11/04/nes-classic-edition-review">"Nintendo's tiny retro console is a wonderful reminder that the great 8-bit classics will never die."</a>
+                    <p>Jose Otero, IGN</p>
+                    <a href="https://www.techradar.com/reviews/nintendo-classic-mini-nes">"These aren't the same as games from the days of early 3D graphics, when developers were still struggling to make use of the third-dimension, these are games from 2D-gaming's prime; NES developers knew what they were doing, and their efforts hold up surprisingly well over 30 years later."</a>
+                    <p>Jon Porter, TechRadar</p>
+                </div>
+                <div class="two">
+                    <a href="https://www.cnet.com/reviews/nintendo-nes-classic-edition-review/">"My son was in love with the little thing. He begged his friends to play it's games."</a>
+                    <p>Scott Stein, CNET</p>
+                    <a href="https://www.engadget.com/2016-11-11-nes-classic-edition-review.html">"Not only does the NES Classic offer a hearty collection of the original console's most popular games, it delivers them to your television in crisp, high-definition resolution over HDMI."</a>
+                    <p>Sean Buckley, Engadget</p>
+                    <a href="https://www.ign.com/articles/2016/11/04/nes-classic-edition-review">"The high-quality emulation from the NES Classic can stand toe-to-toe with much more expensive setups, like the Retron series of consoles."</a>
+                    <p>Jose Otero, IGN</p>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div>
+                <a href="index.html"><img src="./img/footer-logo.png" alt="footer logo"></a>
+            </div>
+            <div class="info">
+                <nav>
+                    <ul>
+                      <li><a href="index.html">Terms of Service</a></li><!--Simple info the the footer-->
+                      <li><a href="contact-us.html">Contact Us</a></li>
+                    </ul>
+                  </nav>
+              </div>
+        </footer>
+        <section class="copyright"><!--Copyright statement I took from nintendo's actual website so that there was some form of copyright-->
+            <p>© Nintendo. Games are property of their respective owners. Nintendo of Canada, Ltd. Headquarters are in Vancouver, BC, Canada</p>
+          </section>
+          <script src="./JS/script.js"></script>
+    </body>
+</html>
